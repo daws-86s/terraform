@@ -28,5 +28,4 @@ resource "aws_security_group" "allow_all" {
         Name = "${local.common_name}-allow-all"
       }
     )
-
 }
