@@ -26,6 +26,7 @@ resource "aws_security_group" "allow_all" {
       var.common_tags,
       {
         Name = "${local.common_name}-allow-all"
+        Purpose = "locals"
       }
     )
 }
